@@ -6,33 +6,67 @@
     <title>My Simple Page</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
-            padding: 20px;
-            background-color: #f0f0f0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
         }
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 40px auto;
             background-color: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 20px;
         }
         h1 {
-            color: #333;
+            color: #2c3e50;
+            margin: 0;
+            font-size: 2.5em;
         }
         p {
-            line-height: 1.6;
+            line-height: 1.8;
             color: #555;
+            margin-bottom: 20px;
+        }
+        .highlight {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.9em;
+            color: #888;
+            border-top: 1px solid #eaeaea;
+            padding-top: 20px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to My Page</h1>
+        <header>
+            <h1>Welcome to My Page</h1>
+        </header>
+        
         <p>This is a simple HTML page created for GitHub testing purposes.</p>
-        <p>Feel free to modify this content or add more elements as needed.</p>
+        
+        <div class="highlight">
+            <p>Feel free to modify this content or add more elements as needed.</p>
+        </div>
+        
+        <footer>
+            &copy; 2025 MCP GitHub Test
+        </footer>
     </div>
 </body>
 </html>
